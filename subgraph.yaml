@@ -1,4 +1,4 @@
-specVersion: 0.0.4
+specVersion: 0.0.5
 description: Capital DEX is a decentralized legally protected exchange primarily for security tokens.
 repository: https://github.com/unchase-subgraphs/capitaldex-subgraph
 schema:
@@ -13,7 +13,7 @@ dataSources:
       startBlock: 11525523
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.6
+      apiVersion: 0.0.7
       language: wasm/assemblyscript
       entities:
         - Pair
@@ -39,7 +39,7 @@ templates:
       abi: Pair
     mapping:
       kind: ethereum/events
-      apiVersion: 0.0.6
+      apiVersion: 0.0.7
       language: wasm/assemblyscript
       file: ./src/core.ts
       entities:
